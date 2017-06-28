@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="25dp"
+    android:background="#F8F8F8"
+    >
+
+    <ImageView
+        android:id="@+id/mv1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mv2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="@+id/mv1"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintLeft_toRightOf="@+id/mv1"
+        app:layout_constraintTop_toTopOf="@+id/mv1" />
+
+    <ImageView
+        android:id="@+id/mv3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="@+id/mv1"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintLeft_toRightOf="@+id/mv2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mv1" />
+
+    <ImageView
+        android:id="@+id/mv4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="5dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintLeft_toLeftOf="@+id/mv1"
+        app:layout_constraintTop_toBottomOf="@+id/mv1" />
+
+    <ImageView
+        android:id="@+id/mv5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="@+id/mv4"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintLeft_toRightOf="@+id/mv4"
+        app:layout_constraintTop_toTopOf="@+id/mv4"
+
+        />
+
+    <ImageView
+        android:id="@+id/mv6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="@+id/mv4"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintLeft_toRightOf="@+id/mv5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mv4" />
+
+    <ImageView
+        android:id="@+id/mv7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintLeft_toLeftOf="@+id/mv4"
+        app:layout_constraintTop_toBottomOf="@+id/mv4" />
+
+    <ImageView
+        android:id="@+id/mv8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintLeft_toRightOf="@+id/mv7"
+        app:layout_constraintTop_toTopOf="@+id/mv7" />
+
+    <ImageView
+        android:id="@+id/mv9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintLeft_toRightOf="@+id/mv8"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mv7" />
+</android.support.constraint.ConstraintLayout>
